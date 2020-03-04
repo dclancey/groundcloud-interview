@@ -31,7 +31,8 @@ However there is not any fine access aside from requiring authentication.
 
 ## Using the Application
 
-The following sequence of commands will have the appliction ready to use
+The following sequence of commands will have the application ready to use assuming you have
+setup your __*venv*__ and installed  __*jdango*__ and __*djangorestframework*__
 * \> python manage.py makemigrations gcrestapp
 * \> python manage.py migrate
 * \> python manage.py createsuperuser
@@ -44,3 +45,5 @@ After logging in as the superuser you will be able create non-superuser users at
 * http://127.0.0.1:8000/users
 or the admin API also.
 
+After creating a new user, you can enter any of the REST API's and you will be prompted for your username
+and password.
