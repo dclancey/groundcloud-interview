@@ -26,8 +26,8 @@ There is a one to many relationship between Restaurant and Delivery.
 ### Authentication
 There is basic authentication based on a username/password for a User.
 
-There are basic REST API's for Restaurant and Delivery. At present all API's require authentication.
-However there is not any fine access aside from requiring authentication.
+There are basic REST API's for Restaurant and Delivery. Authenticaton is required for actions
+that affect the data (creat/update/delete). Viewing the data does not require authentication.
 
 ## Using the Application
 
